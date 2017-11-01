@@ -1,0 +1,8 @@
+import java
+import war
+import eclipse
+
+dependencies {
+	"slf4j:slf4j-api:+",
+	"spring-
+}
