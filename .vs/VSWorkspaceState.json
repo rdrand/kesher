@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bin",
+    "\\public",
+    "\\routes",
+    "\\Tests",
+    "\\Tests\\crud",
+    "\\views"
+  ],
+  "SelectedNode": "\\Tests\\crud\\group.spec.js",
+  "PreviewInSolutionExplorer": false
+}
