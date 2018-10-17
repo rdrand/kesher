@@ -29,8 +29,11 @@ public class Person {
 	private Boolean hebrew_yahrzeit;
 	private Gender gender;
 	private List<Person> parents; // If known and in members
-	
-		public Long getPersonId() {
+	private List<Email> emails;
+	private List<Address> addresses;
+	private List<Phone> phones;
+
+	public Long getPersonId() {
 		return person_id;
 	}
 
@@ -136,6 +139,5 @@ public class Person {
 				+ ", hebrew=" + hebrew + ", groups=" + groups + ", birthdate=" + birthdate + ", deathdate=" + deathdate
 				+ ", hebrew_yahrzeit=" + hebrew_yahrzeit + ", gender=" + gender + ", parents=" + parents + "]";
 	}
-	
-	
+
 }
