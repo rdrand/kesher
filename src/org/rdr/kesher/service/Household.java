@@ -1,5 +1,14 @@
 package org.rdr.kesher.service;
 
-public class Household {
+import java.io.File;
 
+public class Household {
+	/**
+	 * 
+	 * @param path
+	 */
+	public void importHouseholds(File path) {
+		
+		
+	}
 }

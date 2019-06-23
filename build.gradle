@@ -46,14 +46,12 @@ dependencies {
 	compile "org.slf4j:slf4j-log4j12:${slf4j_version}"
 	compile "org.springframework:spring-webmvc:${spring_version}"
 	compile 'org.springframework.data:spring-data-mongodb:2.0.1.RELEASE'
-	
+	compile 'org.apache.commons:commons-csv:1.6'
 	
 	// JUnit Jupiter API and TestEngine implementation
 	testCompile("org.junit.jupiter:junit-jupiter-api:${junitJupiterVersion}")
 	testRuntime("org.junit.jupiter:junit-jupiter-engine:${junitJupiterVersion}")
-	// If you also want to support JUnit 3 and JUnit 4 tests
-	testCompile("junit:junit:${junit4Version}")
-	testRuntime("org.junit.vintage:junit-vintage-engine:${junitVintageVersion}")
+	
 	// To avoid compiler warnings about @API annotations in JUnit code
 	testCompileOnly('org.apiguardian:apiguardian-api:1.0.0')
 	// To use Log4J's LogManager

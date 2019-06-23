@@ -1,6 +1,7 @@
 package org.rdr.kesher.data;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.UUID;
 
@@ -29,6 +30,8 @@ import java.util.UUID;
 public class Group {
 	private GroupType type;
 	private String name;
+	private Date created;
+	private Date updated;
 	private List<Address> addresses = new ArrayList<>();
 	private List<Phone> phones = new ArrayList<>();
 	private List<Email> emails = new ArrayList<>();

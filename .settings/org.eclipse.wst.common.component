@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="kesher">
-        <wb-resource deploy-path="/" source-path="/appClientModule" tag="defaultRootSource"/>
-        <wb-resource deploy-path="/" source-path="/src"/>
-        <wb-resource deploy-path="/" source-path="/test"/>
-        <property name="java-output-path" value="/kesher/bin"/>
-    </wb-module>
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+	<wb-module deploy-name="kesher">
+		<property name="context-root" value="kesher"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src"/>
+	</wb-module>
 </project-modules>
